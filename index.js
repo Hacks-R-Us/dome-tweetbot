@@ -118,8 +118,6 @@ function main() {
     accessTokenSecret = JSON.parse(fs.readFileSync('data/accessSecret.json', 'utf8'));
 
     readTweets();
-
-    dealWithTweets(data);
 }
 
 main();
